@@ -9,9 +9,9 @@ const Controls = ({ isPlaying, setIsPlaying }: PropsControls) => {
     return (
         <main>
             <div className='controls'>
-                {/* <button>Prev</button> */}
+                <button>Prev</button>
                 <button onClick={() => setIsPlaying(!isPlaying)}>{isPlaying ? 'Pause' : 'Play'}</button>
-                {/* <button>Next</button> */}
+                <button>Next</button>
             </div>
         </main>
     )
